@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GerstaoTarefas.Infra.Arquivo\GerstaoTarefas.Infra.Arquivos.csproj" />
+    <ProjectReference Include="..\GestaoTarefas.Dominio\GestaoTarefas.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

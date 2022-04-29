@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoTarefas.WinApp", "GestaoTarefas.WinApp\GestaoTarefas.WinApp.csproj", "{9409F482-B729-4199-95A3-BDB8564DCA72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60501138-B82A-40DE-99B4-594A7F566053}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentação", "1 - Apresentação", "{F1C3A3A4-7A40-4C52-99D7-27008A819526}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Dominio", "2 - Dominio", "{2E63BFC9-38C8-4B3D-B1E8-08D055A04979}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{9AAD4017-045B-4CC7-88DC-F0D5E5188FD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoTarefas.Dominio", "GestaoTarefas.Dominio\GestaoTarefas.Dominio.csproj", "{4D900020-D4A8-4DBF-A2EB-CC4B6A6601E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquivo", "Arquivo", "{234BC2F9-7294-47F2-9582-63BA1FCFD200}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GerstaoTarefas.Infra.Arquivos", "GerstaoTarefas.Infra.Arquivo\GerstaoTarefas.Infra.Arquivos.csproj", "{B1054FB5-B668-4CAF-84EE-FA830C004851}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoE-Agenda.WinApp", "GestaoE-Agenda.WinApp\GestaoE-Agenda.WinApp.csproj", "{3BB98583-2572-45D8-B607-09D2E3A541EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icones", "Icones", "{2013C8AA-5EE8-419D-8F91-C67DC439903C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\agenda.png = ..\..\..\Downloads\agenda.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetaoContato.WinApp", "GetaoContato.WinApp\GetaoContato.WinApp.csproj", "{C6053ECE-D975-4B4F-9FF0-31CEA581BAAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9409F482-B729-4199-95A3-BDB8564DCA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9409F482-B729-4199-95A3-BDB8564DCA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9409F482-B729-4199-95A3-BDB8564DCA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9409F482-B729-4199-95A3-BDB8564DCA72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D900020-D4A8-4DBF-A2EB-CC4B6A6601E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D900020-D4A8-4DBF-A2EB-CC4B6A6601E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D900020-D4A8-4DBF-A2EB-CC4B6A6601E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D900020-D4A8-4DBF-A2EB-CC4B6A6601E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1054FB5-B668-4CAF-84EE-FA830C004851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1054FB5-B668-4CAF-84EE-FA830C004851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1054FB5-B668-4CAF-84EE-FA830C004851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1054FB5-B668-4CAF-84EE-FA830C004851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB98583-2572-45D8-B607-09D2E3A541EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB98583-2572-45D8-B607-09D2E3A541EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB98583-2572-45D8-B607-09D2E3A541EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB98583-2572-45D8-B607-09D2E3A541EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6053ECE-D975-4B4F-9FF0-31CEA581BAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6053ECE-D975-4B4F-9FF0-31CEA581BAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6053ECE-D975-4B4F-9FF0-31CEA581BAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6053ECE-D975-4B4F-9FF0-31CEA581BAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9409F482-B729-4199-95A3-BDB8564DCA72} = {F1C3A3A4-7A40-4C52-99D7-27008A819526}
+		{4D900020-D4A8-4DBF-A2EB-CC4B6A6601E8} = {2E63BFC9-38C8-4B3D-B1E8-08D055A04979}
+		{234BC2F9-7294-47F2-9582-63BA1FCFD200} = {9AAD4017-045B-4CC7-88DC-F0D5E5188FD2}
+		{B1054FB5-B668-4CAF-84EE-FA830C004851} = {234BC2F9-7294-47F2-9582-63BA1FCFD200}
+		{3BB98583-2572-45D8-B607-09D2E3A541EE} = {F1C3A3A4-7A40-4C52-99D7-27008A819526}
+		{C6053ECE-D975-4B4F-9FF0-31CEA581BAAB} = {F1C3A3A4-7A40-4C52-99D7-27008A819526}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70E43CAF-4BE0-4981-8F72-7FCAFEA5FFBC}
+	EndGlobalSection
+EndGlobal

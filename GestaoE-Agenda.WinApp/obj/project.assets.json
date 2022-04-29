@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "GerstaoTarefas.Infra.Arquivos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GestaoTarefas.Dominio": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/GerstaoTarefas.Infra.Arquivos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GerstaoTarefas.Infra.Arquivos.dll": {}
+        }
+      },
+      "GestaoTarefas.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GestaoTarefas.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoTarefas.Dominio.dll": {}
+        }
+      },
+      "GestaoTarefas.WinApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GerstaoTarefas.Infra.Arquivos": "1.0.0",
+          "GestaoTarefas.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestaoTarefas.WinApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoTarefas.WinApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "GerstaoTarefas.Infra.Arquivos/1.0.0": {
+      "type": "project",
+      "path": "../GerstaoTarefas.Infra.Arquivo/GerstaoTarefas.Infra.Arquivos.csproj",
+      "msbuildProject": "../GerstaoTarefas.Infra.Arquivo/GerstaoTarefas.Infra.Arquivos.csproj"
+    },
+    "GestaoTarefas.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../GestaoTarefas.Dominio/GestaoTarefas.Dominio.csproj",
+      "msbuildProject": "../GestaoTarefas.Dominio/GestaoTarefas.Dominio.csproj"
+    },
+    "GestaoTarefas.WinApp/1.0.0": {
+      "type": "project",
+      "path": "../GestaoTarefas.WinApp/GestaoTarefas.WinApp.csproj",
+      "msbuildProject": "../GestaoTarefas.WinApp/GestaoTarefas.WinApp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "GestaoTarefas.WinApp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj",
+      "projectName": "GestaoE-Agenda.WinApp",
+      "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj",
+      "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj": {
+              "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

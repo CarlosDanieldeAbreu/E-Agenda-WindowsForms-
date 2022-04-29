@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gjvgUF+jJ4i6rihVhXwYsCyp2l1EKs0EJcVjFD4Q/Fhsg20dif870qbewXldS57GzbHtUrsG6mW4rRShKnYnXQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
