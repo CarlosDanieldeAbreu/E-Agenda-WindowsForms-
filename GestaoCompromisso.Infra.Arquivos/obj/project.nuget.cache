@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Guz7Xbm9RcdmgnBBfIS0s/cxP5YXZTFfPPHo1ReSMv163l5B6ITd8OnsqyTXwVQWH7QvDbsyAn/JnYL0PFBCMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromisso.Infra.Arquivos\\GestaoCompromisso.Infra.Arquivos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

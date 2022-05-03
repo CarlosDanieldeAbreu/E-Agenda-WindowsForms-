@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoCompromisso.Infra.Arquivos\GestaoCompromisso.Infra.Arquivos.csproj" />
+    <ProjectReference Include="..\GestaoCompromissos.Dominio\GestaoCompromissos.Dominio.csproj" />
+    <ProjectReference Include="..\GestaoContato.Dominio\GestaoContato.Dominio.csproj" />
+    <ProjectReference Include="..\GestaoContato.Infra.Arquivos\GestaoContato.Infra.Arquivos.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -25,6 +25,94 @@
           "bin/placeholder/GerstaoTarefas.Infra.Arquivos.dll": {}
         }
       },
+      "GestaoCompromisso.Infra.Arquivos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GestaoCompromissos.Dominio": "1.0.0",
+          "GestaoContato.Dominio": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/GestaoCompromisso.Infra.Arquivos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoCompromisso.Infra.Arquivos.dll": {}
+        }
+      },
+      "GestaoCompromissos.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GestaoContato.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestaoCompromissos.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoCompromissos.Dominio.dll": {}
+        }
+      },
+      "GestaoCompromissos.WinApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GestaoCompromisso.Infra.Arquivos": "1.0.0",
+          "GestaoCompromissos.Dominio": "1.0.0",
+          "GestaoContato.Dominio": "1.0.0",
+          "GestaoContato.Infra.Arquivos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestaoCompromissos.WinApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoCompromissos.WinApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "GestaoContato.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GestaoContato.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoContato.Dominio.dll": {}
+        }
+      },
+      "GestaoContato.Infra.Arquivos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GestaoContato.Dominio": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/GestaoContato.Infra.Arquivos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoContato.Infra.Arquivos.dll": {}
+        }
+      },
+      "GestaoContato.WinApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GestaoContato.Dominio": "1.0.0",
+          "GestaoContato.Infra.Arquivos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestaoContato.WinApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoContato.WinApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "GestaoTarefas.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -87,6 +175,36 @@
       "path": "../GerstaoTarefas.Infra.Arquivo/GerstaoTarefas.Infra.Arquivos.csproj",
       "msbuildProject": "../GerstaoTarefas.Infra.Arquivo/GerstaoTarefas.Infra.Arquivos.csproj"
     },
+    "GestaoCompromisso.Infra.Arquivos/1.0.0": {
+      "type": "project",
+      "path": "../GestaoCompromisso.Infra.Arquivos/GestaoCompromisso.Infra.Arquivos.csproj",
+      "msbuildProject": "../GestaoCompromisso.Infra.Arquivos/GestaoCompromisso.Infra.Arquivos.csproj"
+    },
+    "GestaoCompromissos.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../GestaoCompromissos.Dominio/GestaoCompromissos.Dominio.csproj",
+      "msbuildProject": "../GestaoCompromissos.Dominio/GestaoCompromissos.Dominio.csproj"
+    },
+    "GestaoCompromissos.WinApp/1.0.0": {
+      "type": "project",
+      "path": "../GestaoCompromissos.WinApp/GestaoCompromissos.WinApp.csproj",
+      "msbuildProject": "../GestaoCompromissos.WinApp/GestaoCompromissos.WinApp.csproj"
+    },
+    "GestaoContato.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../GestaoContato.Dominio/GestaoContato.Dominio.csproj",
+      "msbuildProject": "../GestaoContato.Dominio/GestaoContato.Dominio.csproj"
+    },
+    "GestaoContato.Infra.Arquivos/1.0.0": {
+      "type": "project",
+      "path": "../GestaoContato.Infra.Arquivos/GestaoContato.Infra.Arquivos.csproj",
+      "msbuildProject": "../GestaoContato.Infra.Arquivos/GestaoContato.Infra.Arquivos.csproj"
+    },
+    "GestaoContato.WinApp/1.0.0": {
+      "type": "project",
+      "path": "../GetaoContato.WinApp/GestaoContato.WinApp.csproj",
+      "msbuildProject": "../GetaoContato.WinApp/GestaoContato.WinApp.csproj"
+    },
     "GestaoTarefas.Dominio/1.0.0": {
       "type": "project",
       "path": "../GestaoTarefas.Dominio/GestaoTarefas.Dominio.csproj",
@@ -100,6 +218,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "GestaoCompromissos.WinApp >= 1.0.0",
+      "GestaoContato.WinApp >= 1.0.0",
       "GestaoTarefas.WinApp >= 1.0.0"
     ]
   },
@@ -109,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj",
       "projectName": "GestaoE-Agenda.WinApp",
-      "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj",
+      "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj",
       "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\obj\\",
+      "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoE-Agenda.WinApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -130,8 +250,14 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj": {
-              "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj"
+            "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.WinApp\\GestaoCompromissos.WinApp.csproj": {
+              "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.WinApp\\GestaoCompromissos.WinApp.csproj"
+            },
+            "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj": {
+              "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj"
+            },
+            "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GetaoContato.WinApp\\GestaoContato.WinApp.csproj": {
+              "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GetaoContato.WinApp\\GestaoContato.WinApp.csproj"
             }
           }
         }

@@ -100,6 +100,7 @@
             // 
             // panelListagem
             // 
+            this.panelListagem.BackgroundImage = global::GestaoE_Agenda.WinApp.Properties.Resources.icons8_agenda_64;
             this.panelListagem.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelListagem.Location = new System.Drawing.Point(210, 0);
             this.panelListagem.Name = "panelListagem";

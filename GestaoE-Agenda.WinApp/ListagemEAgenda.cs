@@ -1,4 +1,6 @@
 ﻿using GestaoTarefas.WinApp;
+using GestaoContato.WinApp;
+using GestaoCompromissos.WinApp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,12 +28,14 @@ namespace GestaoE_Agenda.WinApp
 
         private void labelGerenciadorContatos_Click(object sender, EventArgs e)
         {
-
+            ListagenContatos tela = new ListagenContatos();
+            tela.ShowDialog();
         }
 
         private void labelGerenciadorCompromissos_Click(object sender, EventArgs e)
         {
-
+            ListagemCompromissos tela = new ListagemCompromissos();
+            tela.ShowDialog();
         }
     }
 }

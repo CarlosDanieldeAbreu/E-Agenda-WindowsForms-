@@ -132,8 +132,17 @@ namespace GestaoTarefas.WinApp
 
             if (resultado == DialogResult.OK)
             {
-                repositorioTarefa.Editar(tela.Tarefa);
-                CarregarTarefas();
+                if (tela.Tarefa.Validar() == "REGISTRO_VALIDO")
+                {
+                    repositorioTarefa.Editar(tela.Tarefa);
+                    CarregarTarefas();
+                }
+                else
+                {
+                    MessageBox.Show("Prencha os campo brigatorio",
+                        "Titulo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+
             }
         }
 
@@ -146,8 +155,17 @@ namespace GestaoTarefas.WinApp
 
             if (resultado == DialogResult.OK)
             {
-                repositorioTarefa.Inserir(tela.Tarefa);
-                CarregarTarefas();
+                if (tela.Tarefa.Validar() == "REGISTRO_VALIDO")
+                {
+                    repositorioTarefa.Inserir(tela.Tarefa);
+                    CarregarTarefas();
+                }
+                else
+                {
+                    MessageBox.Show("Prencha os campo brigatorio",
+                        "Titulo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+
             }
         }
     }

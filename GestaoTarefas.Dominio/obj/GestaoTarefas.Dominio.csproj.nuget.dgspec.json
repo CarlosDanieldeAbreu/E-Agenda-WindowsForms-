@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj": {}
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj": {
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj",
         "projectName": "GestaoTarefas.Dominio",
-        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj",
         "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",

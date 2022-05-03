@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace GestaoTarefas.Dominio
 {
@@ -39,7 +40,18 @@ namespace GestaoTarefas.Dominio
 
             return $"Número: {Numero}, Título: {Titulo}, Percentual: {percentual}";
         }
+        public string Validar()
+        {
+            StringBuilder sb = new StringBuilder();
 
+            if (string.IsNullOrEmpty(Titulo))
+                sb.AppendLine("O título da tarefa é obrigatório!");
+
+            if (sb.Length == 0)
+                sb.Append("REGISTRO_VALIDO");
+
+            return sb.ToString();
+        }
         public void AdicionarItem(ItemTarefa item)
         {
             if (Itens.Exists(x => x.Equals(item)) == false)
@@ -76,7 +88,5 @@ namespace GestaoTarefas.Dominio
 
             return Math.Round(percentualConcluido, 2);
         }
-
-
     }
 }

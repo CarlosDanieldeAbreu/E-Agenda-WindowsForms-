@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sJl078Gl/pEf8ynf2fgNRpG6aYjYQJNtBHVLErvUINQVXJc4iNbzCMYWclUXwgCJgEKB4rTYpY3PNesVKbPKmw==",
+  "dgSpecHash": "b//nnoeWBggnhYlyBs4fAzEluS3p2pFshS7LK9RArCyk0x9xIZtD+aGTr4saMW2AEC/kwzgOeI2Emm5pjdjAQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GetaoContato.WinApp\\GetaoContato.WinApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GetaoContato.WinApp\\GestaoContato.WinApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
