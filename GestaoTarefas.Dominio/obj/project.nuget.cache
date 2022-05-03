@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8nKQR581+xpav2/Bk7vojgjkqejdFQ0bL3kdktdo49225qZIqq5QOxAgjI3P64idvISe/DUh2Fdt/KW5Nkn/kg==",
+  "dgSpecHash": "A+2z79qeRy5Hk4vl9eF6+pL22RTu+7hX1aVMpx1Qb2B0YJOXF3/QVF8KKTvq+uL1CYBcIqQo7KJBp+chl8IXOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

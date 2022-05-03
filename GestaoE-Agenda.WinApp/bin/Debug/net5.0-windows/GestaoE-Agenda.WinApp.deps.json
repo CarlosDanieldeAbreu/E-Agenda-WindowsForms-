@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "GestaoE-Agenda.WinApp/1.0.0": {
         "dependencies": {
+          "GestaoCompromissos.WinApp": "1.0.0",
+          "GestaoContato.WinApp": "1.0.0",
           "GestaoTarefas.WinApp": "1.0.0"
         },
         "runtime": {
@@ -29,6 +31,58 @@
         },
         "runtime": {
           "GerstaoTarefas.Infra.Arquivos.dll": {}
+        }
+      },
+      "GestaoCompromisso.Infra.Arquivos/1.0.0": {
+        "dependencies": {
+          "GestaoCompromissos.Dominio": "1.0.0",
+          "GestaoContato.Dominio": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "GestaoCompromisso.Infra.Arquivos.dll": {}
+        }
+      },
+      "GestaoCompromissos.Dominio/1.0.0": {
+        "dependencies": {
+          "GestaoContato.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "GestaoCompromissos.Dominio.dll": {}
+        }
+      },
+      "GestaoCompromissos.WinApp/1.0.0": {
+        "dependencies": {
+          "GestaoCompromisso.Infra.Arquivos": "1.0.0",
+          "GestaoCompromissos.Dominio": "1.0.0",
+          "GestaoContato.Dominio": "1.0.0",
+          "GestaoContato.Infra.Arquivos": "1.0.0"
+        },
+        "runtime": {
+          "GestaoCompromissos.WinApp.dll": {}
+        }
+      },
+      "GestaoContato.Dominio/1.0.0": {
+        "runtime": {
+          "GestaoContato.Dominio.dll": {}
+        }
+      },
+      "GestaoContato.Infra.Arquivos/1.0.0": {
+        "dependencies": {
+          "GestaoContato.Dominio": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "GestaoContato.Infra.Arquivos.dll": {}
+        }
+      },
+      "GestaoContato.WinApp/1.0.0": {
+        "dependencies": {
+          "GestaoContato.Dominio": "1.0.0",
+          "GestaoContato.Infra.Arquivos": "1.0.0"
+        },
+        "runtime": {
+          "GestaoContato.WinApp.dll": {}
         }
       },
       "GestaoTarefas.Dominio/1.0.0": {
@@ -61,6 +115,36 @@
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "GerstaoTarefas.Infra.Arquivos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoCompromisso.Infra.Arquivos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoCompromissos.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoCompromissos.WinApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoContato.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoContato.Infra.Arquivos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoContato.WinApp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

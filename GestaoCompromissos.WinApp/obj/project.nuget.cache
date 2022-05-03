@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yora0H/KhIhmG4Qhn8LmG0W82Zko89tPRbRpQzwQBNlpDsKHfAG5hQyF3JF/kLzF8ZXBbzJjGxZiIH69i8in5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.WinApp\\GestaoCompromissos.WinApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Daniel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

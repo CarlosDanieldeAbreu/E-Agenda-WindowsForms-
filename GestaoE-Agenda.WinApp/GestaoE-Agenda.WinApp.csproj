@@ -9,7 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GestaoCompromissos.WinApp\GestaoCompromissos.WinApp.csproj" />
     <ProjectReference Include="..\GestaoTarefas.WinApp\GestaoTarefas.WinApp.csproj" />
+    <ProjectReference Include="..\GetaoContato.WinApp\GestaoContato.WinApp.csproj" />
   </ItemGroup>
 
   <ItemGroup>

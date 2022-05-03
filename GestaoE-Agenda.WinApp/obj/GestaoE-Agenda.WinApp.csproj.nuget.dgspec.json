@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj": {}
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj": {
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj",
         "projectName": "GerstaoTarefas.Infra.Arquivos",
-        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj",
         "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GerstaoTarefas.Infra.Arquivo\\obj\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GerstaoTarefas.Infra.Arquivo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj"
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj"
               }
             }
           }
@@ -68,14 +68,139 @@
         }
       }
     },
-    "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj": {
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromisso.Infra.Arquivos\\GestaoCompromisso.Infra.Arquivos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj",
-        "projectName": "GestaoE-Agenda.WinApp",
-        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromisso.Infra.Arquivos\\GestaoCompromisso.Infra.Arquivos.csproj",
+        "projectName": "GestaoCompromisso.Infra.Arquivos",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromisso.Infra.Arquivos\\GestaoCompromisso.Infra.Arquivos.csproj",
         "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoE-Agenda.WinApp\\obj\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromisso.Infra.Arquivos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.Dominio\\GestaoCompromissos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.Dominio\\GestaoCompromissos.Dominio.csproj"
+              },
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.Dominio\\GestaoCompromissos.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.Dominio\\GestaoCompromissos.Dominio.csproj",
+        "projectName": "GestaoCompromissos.Dominio",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.Dominio\\GestaoCompromissos.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.WinApp\\GestaoCompromissos.WinApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.WinApp\\GestaoCompromissos.WinApp.csproj",
+        "projectName": "GestaoCompromissos.WinApp",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.WinApp\\GestaoCompromissos.WinApp.csproj",
+        "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.WinApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +217,17 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj": {
-                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj"
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromisso.Infra.Arquivos\\GestaoCompromisso.Infra.Arquivos.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromisso.Infra.Arquivos\\GestaoCompromisso.Infra.Arquivos.csproj"
+              },
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.Dominio\\GestaoCompromissos.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.Dominio\\GestaoCompromissos.Dominio.csproj"
+              },
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj"
+              },
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Infra.Arquivos\\GestaoContato.Infra.Arquivos.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Infra.Arquivos\\GestaoContato.Infra.Arquivos.csproj"
               }
             }
           }
@@ -129,14 +263,14 @@
         }
       }
     },
-    "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj": {
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj",
-        "projectName": "GestaoTarefas.Dominio",
-        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj",
+        "projectName": "GestaoContato.Dominio",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj",
         "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,14 +317,78 @@
         }
       }
     },
-    "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj": {
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Infra.Arquivos\\GestaoContato.Infra.Arquivos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj",
-        "projectName": "GestaoTarefas.WinApp",
-        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Infra.Arquivos\\GestaoContato.Infra.Arquivos.csproj",
+        "projectName": "GestaoContato.Infra.Arquivos",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Infra.Arquivos\\GestaoContato.Infra.Arquivos.csproj",
         "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.WinApp\\obj\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Infra.Arquivos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj",
+        "projectName": "GestaoE-Agenda.WinApp",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoE-Agenda.WinApp\\GestaoE-Agenda.WinApp.csproj",
+        "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoE-Agenda.WinApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,11 +405,196 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj": {
-                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj"
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.WinApp\\GestaoCompromissos.WinApp.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoCompromissos.WinApp\\GestaoCompromissos.WinApp.csproj"
               },
-              "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\E-Agenda-WindowsForms\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj"
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj"
+              },
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GetaoContato.WinApp\\GestaoContato.WinApp.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GetaoContato.WinApp\\GestaoContato.WinApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj",
+        "projectName": "GestaoTarefas.Dominio",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj",
+        "projectName": "GestaoTarefas.WinApp",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj",
+        "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.WinApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GerstaoTarefas.Infra.Arquivo\\GerstaoTarefas.Infra.Arquivos.csproj"
+              },
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoTarefas.Dominio\\GestaoTarefas.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GetaoContato.WinApp\\GestaoContato.WinApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GetaoContato.WinApp\\GestaoContato.WinApp.csproj",
+        "projectName": "GestaoContato.WinApp",
+        "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GetaoContato.WinApp\\GestaoContato.WinApp.csproj",
+        "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GetaoContato.WinApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Dominio\\GestaoContato.Dominio.csproj"
+              },
+              "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Infra.Arquivos\\GestaoContato.Infra.Arquivos.csproj": {
+                "projectPath": "C:\\Users\\Carlos Daniel\\source\\repos\\CarlosDanieldeAbreu\\E-Agenda-WindowsForms-\\GestaoContato.Infra.Arquivos\\GestaoContato.Infra.Arquivos.csproj"
               }
             }
           }
